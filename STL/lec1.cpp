@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
     //STL array:
     array<int , 5>arr1;
     array<int , 5>arr2 = {1,2,3,4,5};
+    
 
     cout<<endl;
 
@@ -29,6 +30,17 @@ int main(int argc, char const *argv[])
 
     
     array <int , 3>arr3 = {'G','f','G'}; // ASCII val of 'G' =71 
+    for(auto i : arr3)
+    {
+        cout<<i<<" ";
+    }
+    cout<<endl;
+
+
+    int n = 5; 
+    array<int , 5>n_arr;
+    for(auto i:n_arr){cin>>i;}
+    for(auto i:n_arr){cout<<n_arr[i]<<" ";}
 	
     return 0;
 }

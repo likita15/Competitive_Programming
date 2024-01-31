@@ -5,6 +5,12 @@ based on some priority.
 The queue follow the FIFO property but Priority Queue
 pops the elements based on the priority 
 
+In the same way outside the medicine priority order of the patients are in the following order irrespective who have came 
+first  , shown in the example : 
+
+CRITICAL_PATIENTS >>>> CHILDREN >>>> OLD FEMALE >>>> OLD MEN >>> FEMALE >> MALE even they have came first they have to follow 
+the priority order
+
 Priority queues are built on the heaps (max heap by 
 default) and uses an aray of vector as an internal structure
 */

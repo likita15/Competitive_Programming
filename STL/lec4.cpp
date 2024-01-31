@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    // initialize the queue
+    // initialize the queue:
     queue<int> q ;
 
     //insert element in the queue from the back of the queue:
@@ -33,6 +33,7 @@ int main()
     }
 
     cout<<q.empty()<<endl;
+
 
 return 0;
 }
